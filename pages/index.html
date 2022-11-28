@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flats Gilad Page</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="../JS/AjaxCall.js"></script>
+    <link rel="stylesheet" href="../Css/index.css">
+    <script src="../JS/index.js" ></script>
+
+</head>
+
+
+<body>
+    <div id="main_container">
+        <div class="" id="Header">
+            <h1 class="w3-center w3-animate-bottom">Cgroup41 is the BEST Cgroup-Flat</h1>
+        </div>
+        <div id="Form_container">
+            <form class="w3-animate-zoom" >
+                <table>
+                    <tr>
+                        <td colspan="2" style="text-align:center">Insert Flat details:</td>
+                    </tr>
+                    <tr>
+                        <td>Insert Id:</td>
+                        <td><input id="idIN" type="number" required></td>
+                    </tr>
+                    <tr>
+                        <td>Insert City:</td>
+                        <td>
+                            <input list="Citys" name="Citys" id="CityIN">
+                            <datalist id="Citys">
+                            <option value="Tel-Aviv">
+                            <option value="Amsterdam">
+                            <option value="New-York">
+                            <option value="Paris">
+                            <option value="London">
+                          </datalist></td>
+                    </tr>
+                    <tr>
+                        <td>Insert Address:</td>
+                        <td><input id="AddressIN" type="text" maxlength="30" / required></td>
+                    </tr>
+                    <tr>
+                        <td>Insert number of rooms:</td>
+                        <td><input id="roomsIN" type="number" / required min="1" max="10"></td>
+                    </tr>
+                    <tr>
+                        <td>Insert Price:</td>
+                        <td><input id="PriceIN" type="number" step="50" min="0" / required></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"><button id="PostFlat">Click to Post</button></td>
+                    </tr>
+                  
+                </table>
+            </form>
+        </div>
+
+        <div class="w3-animate-zoom" id="Flats-PH">
+            <!-- <div class="FlatCard">
+                <img src="../img/—Pngtree—vector flat icon_4091872.png" alt="flatsPic">
+                <table>
+                    <tr>
+                        <td>ID:</td>
+                        <td style="text-align:center;">10</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Price:</td>
+                        <td style="text-align:center;">1220$</td>
+                    </tr>
+                    <tr>
+                        <td>City:</td>
+                        <td style="text-align:center;">tel-aviv</td>
+                    </tr>
+                    <tr>
+                        <td>Adress:</td>
+                        <td style="text-align:center;">shmoel shmoel 3</td>
+                    </tr>
+                    <tr>
+                        <td>Rooms number:</td>
+                        <td style="text-align:center;">3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button>Click to Order</button></td>
+                    </tr>
+                </table>
+            </div> -->
+        </div>
+    </div>
+</body>
+</html>

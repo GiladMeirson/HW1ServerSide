@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders Gilad Page</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="../JS/AjaxCall.js"></script>
+    <link rel="stylesheet" href="../Css/index.css">
+    <script src="../JS/rotate.js"></script>
+    <script src="../JS/index2.js"></script>
+
+</head>
+
+<body>
+    <div id="main_container">
+        <div class="" id="Header">
+            <h1 class="w3-center w3-animate-bottom">Cgroup41 is the BEST Cgroup-Order</h1>
+        </div>
+        <div id="Form_container">
+            <form class="w3-animate-zoom" >
+                <table>
+                    <tr>
+                        <td colspan="2" style="text-align:center">Order details: for flat id:  <span id="FlatIdSpan"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Insert Order Id:</td>
+                        <td><input id="orderidIN" type="number" required></td>
+                    </tr>
+                    <tr>
+                        <td>Insert User Id:</td>
+                        <td><input id="useridIN" type="number" required></td>
+                    </tr>
+                    <tr>
+                        <td>Insert Start Date:</td>
+                        <td><input id="startDateIN" onchange=ChangeEndDate(this.value) type="date"  / required></td>
+                    </tr>
+                    <tr>
+                        <td>Insert End Date:</td>
+                        <td><input id="EndDateIN" type="date"   / required ></td>
+                    </tr>
+             
+
+                    <tr>
+                        <td colspan="2"><button id="PostOrder">Click to Post</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="button" id="ShowOrders" value="Show All Orders">
+                        </td>
+                    </tr>
+                  
+                </table>
+            </form>
+        </div>
+
+        <div id="Order-PH">
+            <!-- <div class="FlatCard orderCard">
+                <img src="../img/—Pngtree—flat cartoon city illustration_5448418.png" alt="flatsPic">
+                <table>
+                    <tr>
+                        <td>Order ID:</td>
+                        <td style="text-align:center;">10</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>User ID:</td>
+                        <td style="text-align:center;">1220$</td>
+                    </tr>
+                    <tr>
+                        <td>Flat ID:</td>
+                        <td style="text-align:center;">tel-aviv</td>
+                    </tr>
+                    <tr>
+                        <td>Start Date:</td>
+                        <td style="text-align:center;">shmoel shmoel 3</td>
+                    </tr>
+                    <tr>
+                        <td>End Date:</td>
+                        <td style="text-align:center;">3</td>
+                    </tr>
+                  
+                </table>
+            </div> -->
+        </div>
+        
+    </div>
+</body>
+</html>

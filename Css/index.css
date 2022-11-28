@@ -1,0 +1,188 @@
+*{
+    font-family: "Sofia";
+}
+h1, p, a {
+    font-family: "Sofia";
+}
+body{
+    background-image: linear-gradient(270deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);
+}
+
+@keyframes headerA {
+    0%   {background-image:linear-gradient(270deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+    5%   {background-image:linear-gradient(288deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+    10%   {background-image:linear-gradient(306deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+    15%   {background-image:linear-gradient(324deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+    20%   {background-image:linear-gradient(342deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+    25%   {background-image:linear-gradient(360deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+    30%   {background-image:linear-gradient(378deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+    35%   {background-image:linear-gradient(396deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+    40%   {background-image:linear-gradient(414deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+    45%   {background-image:linear-gradient(432deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+    50%   {background-image:linear-gradient(450deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+    55%   {background-image:linear-gradient(468deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+    60%   {background-image:linear-gradient(486deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+    65%   {background-image:linear-gradient(504deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+    70%   {background-image:linear-gradient(522deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+    75%   {background-image:linear-gradient(540deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+    80%   {background-image:linear-gradient(558deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+    85%   {background-image:linear-gradient(576deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+    90%   {background-image:linear-gradient(594deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+    95%   {background-image:linear-gradient(612deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+    100%   {background-image:linear-gradient(630deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);}
+
+   
+  }
+  @keyframes formA {
+    from   { background-image: linear-gradient(67deg, #e27a60 0%, #9b684b 50%, #7c374e 75%);}
+    to  { background-image: linear-gradient(247deg, #e27a60 0%, #9b684b 50%, #7c374e 75%);}
+  }
+
+  #main_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#Header {
+    display: flex;
+    width: 85vw;
+    background-image: linear-gradient(270deg, #EADEDB 0%, #BC70A4 50%, #a75e76 75%);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 5vh;
+    align-items: center;
+    justify-content: space-around;
+    animation-name: headerA;
+    animation-duration: 15s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+#Form_container{
+   
+    padding: 2vh;
+    width: 55vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5vh;
+    font-size: 2vw;
+    border-radius: 5vh;
+    background-image: linear-gradient(67deg, #e27a60 0%, #9b684b 50%, #7c374e 75%);
+    animation-name: formA;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+   
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+#Form_container input{
+    border-radius: 1vh;
+    text-align: center;
+}
+
+.w3-animate-zoom {
+    animation: animatezoom 3s;
+}
+.w3-animate-top {
+    position: relative;
+    animation: animatetop 2s;
+}
+.w3-animate-bottom {
+    position: relative;
+    animation: animatebottom 2.4s;
+}
+form button,.FlatCard button {
+    color: #EADEDB;
+    border: none;
+    font-size: 1.55vw;
+    width: 100%;
+    border-radius: 10vh;
+    background-image: linear-gradient(67deg, #649260 0%, #225322 50%, #3faf52 75%);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+form button:hover ,.FlatCard button:hover{
+    color: #062b05;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10vh;
+    background-image: linear-gradient(222deg, #649260 0%, #afd8af 50%, #3faf52 75%);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+.FlatCard{
+    float: left;
+    width: 25vw;
+    border: black 1px solid;
+    border-radius: 25%;
+    background-image: linear-gradient(252deg, #e47452 0%, #a54d37 50%, #772323 75%);
+    padding: 2%;
+    margin: 5%;
+    font-size: 1.25vw;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+
+}
+.orderCard{
+    background-image: linear-gradient(252deg, #83a3e9 0%, #6db4ca 50%, #d4d678 75%);
+    width: 30vw;
+    display:none;
+    
+}
+#Flats-PH {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+img{
+    width: 85%;
+    display: block;
+    margin: auto;
+}
+.FlatCard table{
+    margin: auto;
+}
+#FlatIdSpan{
+    width: 3.5vw;
+    height: 3.5vw;
+    font-size: 3.5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #ffd9df;
+}
+#Order-PH {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+#Form_container #ShowOrders{
+    width: 100%;
+    color: #EADEDB;
+    border: none;
+    font-size: 1.55vw;
+    border-radius: 10vh;
+    background-image: linear-gradient(67deg, #6e9cc7 0%, #6954c7 50%, #4bc5e4 75%);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+#Form_container #ShowOrders:hover{
+    color: #062b05;
+    cursor: pointer;
+    background-image: linear-gradient(67deg, #a6c8e9 0%, #8a7fbb 50%, #82c3d3 75%);
+}
